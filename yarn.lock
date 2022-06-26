@@ -2119,11 +2119,6 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-foo@^1.0.0:
-  version "1.0.0"
-  resolved "https://mirrors.tencent.com/npm/foo/-/foo-1.0.0.tgz#943e0ec03df00ebeb6273a5b94b916ba54b47581"
-  integrity sha1-lD4OwD3wDr62JzpblLkWulS0dYE=
-
 for-in@^1.0.2:
   version "1.0.2"
   resolved "https://mirrors.tencent.com/npm/for-in/-/for-in-1.0.2.tgz#81068d295a8142ec0ac726c6e2200c30fb6d5e80"

@@ -1,6 +1,7 @@
 {
   "name": "@amlmp/foo",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "serve": "vite",
     "build": "vite build",

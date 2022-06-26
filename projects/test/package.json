@@ -1,6 +1,7 @@
 {
   "name": "test",
   "version": "1.0.0",
+  "type": "module",
   "scripts": {
     "serve": "vite",
     "build": "vite build",
@@ -10,7 +11,6 @@
     "lint:style": "echo lint not work"
   },
   "dependencies": {
-    "foo": "^1.0.0"
   },
   "author": {
     "name": "mattbtma"
