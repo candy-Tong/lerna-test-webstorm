@@ -1,0 +1,11 @@
+{
+  "npmClient": "yarn",
+  "packages": [
+    "base/*",
+    "features/*",
+    "organizations/*",
+    "projects/*"
+  ],
+  "version": "independent",
+  "useWorkspaces": true
+}

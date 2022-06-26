@@ -1,0 +1,17 @@
+{
+  "name": "@amlmp/foo",
+  "version": "1.0.0",
+  "scripts": {
+    "serve": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "fef -v && fef predeploy",
+    "lint": "echo lint not work",
+    "lint:style": "echo lint not work"
+  },
+  "devDependencies": {
+  },
+  "author": {
+    "name": "mattbtma"
+  }
+}

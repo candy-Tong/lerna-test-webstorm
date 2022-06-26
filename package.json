@@ -1,0 +1,27 @@
+{
+  "name": "aml-mid-platform-monorepo-web",
+  "description": "反洗钱中台web",
+  "scripts": {
+    "bootstrap": "lerna bootstrap"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "base/*",
+      "features/*",
+      "organizations/*",
+      "projects/*"
+    ],
+    "nohoist": [
+      "**/@vue/cli-service",
+      "**/@tencent/feflow-devkit-qf",
+      "**/scripty"
+    ]
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  },
+  "license": "MIT"
+}
